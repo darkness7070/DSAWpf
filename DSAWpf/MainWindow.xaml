@@ -1,0 +1,22 @@
+﻿<Window x:Class="DSAWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DSAWpf"
+        mc:Ignorable="d"
+        Title="Создать ЭЦП" Height="150" Width="350" WindowStartupLocation="CenterScreen">
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Margin="5,5,5,5" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Margin="5,5,5,5" Content="Создать ЭЦП" Padding="5,1,5,1" Click="createSign" FontSize="18" FontFamily="Cascadia Mono" FontWeight="Normal" Background="White" BorderBrush="Black"/>
+            <Button Margin="5,5,5,5" Content="Проверить ЭЦП" Padding="5,1,5,1" Click="verifySign" FontSize="18" FontFamily="Cascadia Mono" FontWeight="Normal" Background="White" BorderBrush="Black"/>
+        </StackPanel>
+        <Button Content="Сгенерировать ключи" Padding="5,1,5,1" Click="generateKeys" FontSize="18" FontFamily="Cascadia Mono" FontWeight="Normal" Background="White" BorderBrush="Black" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+    </Grid>
+
+</Window>

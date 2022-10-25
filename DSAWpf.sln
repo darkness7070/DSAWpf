@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSAWpf", "DSAWpf\DSAWpf.csproj", "{4DAA5575-27EE-45A3-ACCB-7BCA089D00AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DAA5575-27EE-45A3-ACCB-7BCA089D00AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DAA5575-27EE-45A3-ACCB-7BCA089D00AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DAA5575-27EE-45A3-ACCB-7BCA089D00AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DAA5575-27EE-45A3-ACCB-7BCA089D00AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE0E5877-74AA-4AC9-BB92-3A1652DD0283}
+	EndGlobalSection
+EndGlobal
