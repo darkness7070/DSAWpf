@@ -20,17 +20,14 @@ namespace DSAWpf
         {
             InitializeComponent();
         }
-
         private void createSign(object sender, RoutedEventArgs e)
         {
             new CreateSign().ShowDialog();
         }
-
         private void verifySign(object sender, RoutedEventArgs e)
         {
             new VerifySign().ShowDialog();
         }
-
         private void generateKeys(object sender, RoutedEventArgs e)
         {
             string path;
